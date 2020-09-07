@@ -3,6 +3,7 @@
   "name": "film-ratings",
   "description": "Displays FilmWeb ratings on HBO Go and Netflix.",
   "version": "0.1.0",
+  "author": "Maciej Barelkowski <maciejbarel@gmail.com>",
   "background": {
     "scripts": [
       "dist/background.js"
