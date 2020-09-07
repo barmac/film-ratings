@@ -1,6 +1,6 @@
 {
   "name": "film-ratings",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A web browser extension which displays FilmWeb ratings on HBO Go and Netflix.",
   "scripts": {
     "all": "npm run lint && npm run test && npm run build",
