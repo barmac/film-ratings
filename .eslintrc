@@ -1,0 +1,8 @@
+
+{
+  "extends": "plugin:bpmn-io/es6",
+  "env": {
+    "es2017": true,
+    "browser": true
+  }
+}

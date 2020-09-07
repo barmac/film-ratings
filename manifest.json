@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "film-ratings",
+  "description": "Displays FilmWeb ratings on HBO Go and Netflix.",
+  "version": "0.1.0",
+  "background": {
+    "scripts": [
+      "dist/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://hbogo.pl/*"
+      ],
+      "js": [
+        "dist/hboGo.js"
+      ],
+      "css": [
+        "dist/style.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://www.netflix.com/browse*"
+      ],
+      "js": [
+        "dist/netflix.js"
+      ],
+      "css": [
+        "src/style.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "https://www.filmweb.pl/search*"
+  ]
+}

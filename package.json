@@ -1,0 +1,26 @@
+{
+  "name": "film-ratings",
+  "version": "0.1.0",
+  "description": "A web browser extension which displays FilmWeb ratings on HBO Go and Netflix.",
+  "scripts": {
+    "all": "npm run lint && npm run test && npm run build",
+    "build": "rollup -c",
+    "lint": "eslint .",
+    "test": "mocha -r esm -r test/setup.js test/*Spec.js"
+  },
+  "keywords": [],
+  "author": "Maciej Barelkowski <maciejbarel@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-bpmn-io": "^0.11.0",
+    "esm": "^3.2.25",
+    "mocha": "^8.1.3",
+    "rollup": "^2.26.10",
+    "rollup-plugin-copy": "^3.3.0",
+    "sinon": "^9.0.3",
+    "webextension-polyfill": "^0.6.0"
+  }
+}
