@@ -29,7 +29,7 @@
         "dist/netflix.js"
       ],
       "css": [
-        "src/style.css"
+        "dist/style.css"
       ]
     }
   ],

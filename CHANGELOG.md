@@ -6,6 +6,10 @@ All notable changes to [film-ratings](https://github.com/barmac/film-ratings) ar
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.1.1
+
+* `FIX`: fix style directory in manifest
+
 ## 0.1.0
 
 * `FEAT`: initial version
