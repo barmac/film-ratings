@@ -4,7 +4,7 @@ A web browser extension which displays FilmWeb ratings on HBO Go and Netflix.
 
 ## Installation
 
-Build extension manually and add as unpacked to your browser.
+Download the extension from [Chrome Web Store](https://chrome.google.com/webstore/detail/film-ratings/gbpjlnljknajfeloegmineklgmlnoipf) or build it manually and add as unpacked to your browser.
 
 ```sh
 npm install
