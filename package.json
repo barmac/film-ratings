@@ -4,8 +4,8 @@
   "description": "A web browser extension which displays FilmWeb ratings on HBO Go and Netflix.",
   "scripts": {
     "all": "npm run lint && npm run test && npm run build",
-    "dev": "npm run build -- --watch",
-    "build": "rollup -c",
+    "start": "web-ext run --verbose",
+    "build": "rollup -c && web-ext build",
     "lint": "eslint .",
     "test": "mocha -r esm -r test/setup.js test/*Spec.js"
   },
@@ -22,6 +22,7 @@
     "rollup": "^2.26.10",
     "rollup-plugin-copy": "^3.3.0",
     "sinon": "^9.0.3",
+    "web-ext": "^5.0.0",
     "webextension-polyfill": "^0.6.0"
   }
 }
