@@ -4,6 +4,9 @@
   "description": "Displays FilmWeb ratings on HBO Go and Netflix.",
   "version": "0.2.0",
   "author": "Maciej Barelkowski <maciejbarel@gmail.com>",
+  "icons": {
+    "128": "assets/icon128.png"
+  },
   "background": {
     "scripts": [
       "dist/background.js"
