@@ -6,6 +6,8 @@ All notable changes to [film-ratings](https://github.com/barmac/film-ratings) ar
 
 ___Note:__ Yet to be released changes appear here._
 
+* `FEAT`: add blur filter to films with rating less than 6/10
+
 ## 0.1.1
 
 * `FIX`: fix style directory in manifest

@@ -20,3 +20,16 @@
   text-shadow: none;
   text-decoration: none;
 }
+
+[data-rating] {
+  filter: blur(10px);
+}
+
+[data-rating^="10"],
+[data-rating^="9"],
+[data-rating^="8"],
+[data-rating^="7"],
+[data-rating^="6"],
+[data-rating]:hover {
+  filter: unset;
+}

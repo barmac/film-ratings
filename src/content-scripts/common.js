@@ -7,7 +7,7 @@ export function setupRatings({
   itemSelectors = [],
   getTitle = () => null
 } = {}) {
-  const itemSelector = itemSelectors.map(selector => `${selector}:not([rating-added])`).join(',');
+  const itemSelector = itemSelectors.map(selector => `${selector}:not([data-rating])`).join(',');
 
   const observed = new WeakSet();
 
@@ -84,5 +84,5 @@ function addRatingToDOM(item, rating) {
   node.innerText = rating;
 
   item.appendChild(node);
-  item.setAttribute('rating-added', true);
+  item.setAttribute('data-rating', rating);
 }
